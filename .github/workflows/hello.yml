@@ -1,0 +1,10 @@
+name: Run Hello Action
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    name: Hello
+    steps:
+      - name: Hello
+        uses: 2bo/entry_github_actions_my_action@v1.0.0
